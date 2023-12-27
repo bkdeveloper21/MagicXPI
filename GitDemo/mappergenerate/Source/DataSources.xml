@@ -1,0 +1,87 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="14060.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="1"/>
+
+  <LastIsnFolder val="0"/>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="[MBA]" Resident="N" UniqueISNConvState="12" data_source="DestinationDB_1_1_1_4" id="1" name="[MBA]">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Owner val="dbo"/>
+
+  <Position val="D"/>
+
+  <Columns>
+    <Column id="1" name="MBA.rollno">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="N18"/>
+        <NullAllowed id="166" val="Y"/>
+        <DefaultValue id="170" val="0"/>
+        <StoredAs id="173" val="12"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="[rollno]"/>
+        <Type id="179" val="NUMERIC"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="18"/>
+        <_Negative id="192" val="Y"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="[rollno]" PIC_U="N18" Size="20" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="MBA.division">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" id="1"/>
+        <Picture id="157" valUnicode="50"/>
+        <NullAllowed id="166" val="Y"/>
+        <DefaultValue id="170"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="100"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="[division]"/>
+        <Type id="179" val="NVARCHAR"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="[division]" PIC_U="50" allowed_null="Y" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="32" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject>  </DataObjects>
+ </DataSourceRepository>
+  </Application>

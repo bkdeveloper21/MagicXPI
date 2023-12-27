@@ -1,0 +1,23 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="14060.00"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="1"/>
+
+  <LastIsnFolder val="0"/>
+
+</Header>
+
+<DataRepositoryProperties/>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="[MBA]" Resident="N" UniqueISNConvState="12" data_source="DestinationDB_1_1_1_4" id="1" name="[MBA]" offset="228" length="1967"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="3107853940942304"/>  </Application>
